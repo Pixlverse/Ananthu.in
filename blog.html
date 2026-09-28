@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Thinking — Ananthu Vasudev</title>
+  <meta name="description" content="Notes on marketing, business, people and life.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,700;12..96,800&family=Caveat:wght@600&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+
+<header class="site-header site-header--rule">
+  <div class="wrap">
+    <a href="index.html" class="logo" aria-label="ananthu — home">ananthu</a>
+    <a href="index.html" style="font-size:15px;font-weight:600">← Back to home</a>
+  </div>
+</header>
+
+<main>
+  <section class="wrap blog-hero">
+    <div class="stack">
+      <div class="note">written while figuring things out</div>
+      <h1 class="display">Thinking.</h1>
+      <p class="lede" style="max-width:680px">Notes on marketing, business, people and life.</p>
+      <div class="filters" role="group" aria-label="Filter by category">
+        <button type="button" class="filter is-on" data-cat="All" aria-pressed="true" style="--f:#16181D;--fg:#FAF7F0">All</button>
+        <button type="button" class="filter" data-cat="Marketing" aria-pressed="false" style="--f:#0E9AA7">Marketing</button>
+        <button type="button" class="filter" data-cat="Business" aria-pressed="false" style="--f:#F4B22D">Business</button>
+        <button type="button" class="filter" data-cat="People" aria-pressed="false" style="--f:#8E78C7">People</button>
+        <button type="button" class="filter" data-cat="Life" aria-pressed="false" style="--f:#92B67E">Life</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap featured">
+    <a href="article.html" class="feature">
+      <span class="cat">Latest · [Category]</span>
+      <span class="feature__title">[Featured post title]</span>
+      <span class="feature__ex">[One-line excerpt]</span>
+      <span style="font-size:14px">[Date] · [x] min read</span>
+    </a>
+    <div class="feature-side">
+      <a href="article.html" class="fs-yellow"><span class="k">Business</span><b>[Post title]</b><span style="font-size:14px">[Date] · [x] min read</span></a>
+      <a href="article.html" class="fs-outline"><span class="k">People</span><b>[Post title]</b><span class="meta">[Date] · [x] min read</span></a>
+    </div>
+  </section>
+
+  <section class="wrap all-posts" aria-label="All posts">
+    <div class="eyebrow">All writing</div>
+    <a href="article.html" class="row" data-cat="Marketing"><span class="row__date meta">[Date]</span><span class="row__title">[Post title]</span><span class="row__cat">Marketing</span></a>
+    <a href="article.html" class="row" data-cat="Life"><span class="row__date meta">[Date]</span><span class="row__title">[Post title]</span><span class="row__cat">Life</span></a>
+    <a href="article.html" class="row" data-cat="People"><span class="row__date meta">[Date]</span><span class="row__title">[Post title]</span><span class="row__cat">People</span></a>
+    <a href="article.html" class="row" data-cat="Business"><span class="row__date meta">[Date]</span><span class="row__title">[Post title]</span><span class="row__cat">Business</span></a>
+    <p class="empty" hidden>Nothing here yet — soon.</p>
+  </section>
+</main>
+
+<footer class="page-footer">
+  <div class="wrap">
+    <span>© 2026 Ananthu Vasudev</span>
+    <a href="index.html#contact">Say hello →</a>
+  </div>
+</footer>
+
+<script src="assets/js/site.js"></script>
+</body>
+</html>
